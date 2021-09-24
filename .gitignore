@@ -1,0 +1,4 @@
+# Ignore npm installed packages.
+node_modules/
+# Don't include environmental variables file that is meant to stay on the local machine.
+.env
