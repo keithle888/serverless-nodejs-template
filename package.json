@@ -1,5 +1,5 @@
 {
-  "name": "serverless_nodejs_template",
+  "name": "serverless-nodejs-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
