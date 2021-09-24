@@ -6,8 +6,12 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "rootDir": "./src"
   },
+  "exclude": ["tests/**/*"],
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Recommended"
 }
