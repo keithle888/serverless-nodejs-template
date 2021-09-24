@@ -2,8 +2,13 @@ service: serverless-nodejs-template
 
 frameworkVersion: '2'
 
+variablesResolutionMode: 20210326 # enable complete support for "ssm" variables resolution. If no resolution is found during deployment, error is thrown.
+useDotenv: false # Should not be used.
+unresolvedVariablesNotificationMode: error # Error thrown if any variables expected can not be resolved
+
 plugins:
   - serverless-plugin-typescript
+  - serverless-offline
 
 provider:
   name: aws
