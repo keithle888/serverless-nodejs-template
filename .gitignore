@@ -6,3 +6,5 @@ node_modules/
 .serverless
 # Output directly of compiled typescript -> javascript
 dist/
+# jest coverage directory
+coverage/

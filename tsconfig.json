@@ -11,7 +11,9 @@
     "sourceMap": true,
     "rootDir": "./src"
   },
-  "exclude": ["tests/**/*"],
+  "exclude": [
+    "__tests__/**/*"
+  ],
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Recommended"
 }
