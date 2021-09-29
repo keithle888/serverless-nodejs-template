@@ -1,9 +1,9 @@
 /*
- * For a detailed explanation regarding each configuration property and type check, visit:
+ * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/configuration
  */
 
-export default {
+module.exports = {
   // Automatically clear mock calls and instances between every test
   clearMocks: true,
 
@@ -24,3 +24,5 @@ export default {
   // A preset that is used as a base for Jest's configuration
   preset: 'ts-jest',
 };
+
+
